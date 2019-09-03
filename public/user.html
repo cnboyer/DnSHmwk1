@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="/css/stylesheet.css">
-      <meta charset="utf-8">
+<head>
 
-      <title>Hello World</title>
+    <!--css bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <!--Compiled and minified JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-  </head>
+    <!--css code-->
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+    <title>Hello World</title>
+
+
+</head>
   <body>
-<!--from w3 code database-->
+    <!--from w3 code database-->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">Index</a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a href="#">User</a></li>
-          <li><a href="#">Books</a></li>
+          <li><a href="user.html">User</a></li>
+          <li><a href="books.html">Books</a></li>
         </ul>
       </div>
     </nav>
-    
+
   <!--from Bootstrap code database-->
     <table class="table table-dark">
       <thead>
@@ -31,7 +41,6 @@
           <th scope="col">Country</th>
           <th scope="col">Birthdate</th>
           <th scope="col">Email</th>
-          <th scope="col">Headshot</th>
         </tr>
       </thead>
       <tbody>
@@ -39,8 +48,12 @@
           <th scope="row">Willy Wonka</th>
             <td>Licorice Land</td>
             <td>01/01/1901</td>
-            <td>badonkawonka@meanwilly01</td>
-            <img src="" alt="WonkDaddy">
+            <td>
+                <a href="mailto:badonkawonka@meanwilly01">badonkawonka@meanwilly01</a>
+            </td>
+            <a target="_blank" href="https://cdn.vox-cdn.com/thumbor/vcDCesZJrcy2B23gHEvfRyFqIsQ=/0x0:1080x810/1200x800/filters:focal(0x0:1080x810)/cdn.vox-cdn.com/uploads/chorus_image/image/50583643/gene-wilder-willy-wonka.0.0.jpg">
+            <img src="https://cdn.vox-cdn.com/thumbor/vcDCesZJrcy2B23gHEvfRyFqIsQ=/0x0:1080x810/1200x800/filters:focal(0x0:1080x810)/cdn.vox-cdn.com/uploads/chorus_image/image/50583643/gene-wilder-willy-wonka.0.0.jpg" width="450" class="img-thumbnail" alt="WonkDaddy">
+          </a>
         </tr>
       </tbody>
 </table>

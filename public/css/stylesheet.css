@@ -1,4 +1,10 @@
-#div {
-  background-color: blue;
-  padding: 20px;
+body {
+  background-color: lightblue;
+  text-color: pink;
+  header-color: orange;
+  link-color: red;
+}
+
+a {
+  color: red;
 }
